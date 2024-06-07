@@ -9,8 +9,8 @@ const { optimize } = require("webpack");
 module.exports = {
   entry: "./src/index.js",
   output: {
-    path: path.resolve(__dirname, "public"),
-    filename: "dist.js",
+    path: path.resolve(__dirname, "dist"),
+    filename: "bundle.js",
     publicPath: "/",
   },
   resolve: {
